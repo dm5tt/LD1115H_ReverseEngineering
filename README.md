@@ -1,11 +1,23 @@
 
-# Hardware
+## Reverse Engineering the Hi-Link LD1115H
+
+The LD1115H is a 24GHz CW radar for human presense and object movement detection. 
+
+It uses our old friend SGRSemi SRK1101/SGR1101A and a STM32F030 microcontroller.
+
+Rather boring hardware. Not spending any further time here.
+
+## Hardware
+
+### Picture of the PCB
+
+![image info](./docs/pcb.jpeg)
 
 ### ICs
 
 - Controller: ST STM32F030f4
 - OpAmp: Runic RS622S
-- Radar: SGR1101A
+- Radar: SGRSemi SGR1101A
 - LDO: GU5R1 (noname 3V3 LDO)
 
 
@@ -15,17 +27,16 @@ Wild educated guesses here. Not 100% sure.
 
 Both signal captured from OpAmp output vs. their ADC signal on the STM32.
 
-X: Derviate of the down mixed echo  signal
-
-![image info](./docs/Signal_X.png)
-
-
-
-Y: High passed echo signal without DC offset
+#### X: Derviate of the filtered  echo  signal
 
 ![image info](./docs/Signal_Y.png)
 
-# Software
+
+#### Y: Bandpassed (to get rid of DC and high frequency noise?) echo signal without DC offset
+
+![image info](./docs/Signal_X.png)
+
+## Firmware
 
 SDO/SCK are exposed an labeled. No read protection is set.
 
