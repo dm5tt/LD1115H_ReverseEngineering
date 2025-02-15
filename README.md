@@ -11,7 +11,7 @@ Rather boring hardware. Not spending any further time here.
 
 ### Picture of the PCB
 
-![image info](./docs/pcb.jpeg)
+![image info](./docs/ld1115h_pcb.jpeg)
 
 ### ICs
 
@@ -29,12 +29,12 @@ Both signal captured from OpAmp output vs. their ADC signal on the STM32.
 
 #### X: Derviate of the filtered  echo  signal
 
-![image info](./docs/Signal_Y.png)
+![image info](./docs/ld1115h_signal_x.png)
 
 
 #### Y: Bandpassed echo signal
 
-![image info](./docs/Signal_X.png)
+![image info](./docs/ld1115h_signal_y.png)
 
 ## Firmware
 
