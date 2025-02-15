@@ -32,7 +32,7 @@ Both signal captured from OpAmp output vs. their ADC signal on the STM32.
 ![image info](./docs/Signal_Y.png)
 
 
-#### Y: Bandpassed (to get rid of DC and high frequency noise?) echo signal without DC offset
+#### Y: Bandpassed (no DC offset) echo signal
 
 ![image info](./docs/Signal_X.png)
 
