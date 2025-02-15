@@ -27,12 +27,12 @@ Wild educated guesses here. Not 100% sure.
 
 Both signal captured from OpAmp output vs. their ADC signal on the STM32.
 
-#### X: Derviate of the filtered  echo  signal
+#### Pin X: Derviate of the filtered  echo  signal
 
 ![image info](./docs/ld1115h_signal_x.png)
 
 
-#### Y: Bandpassed echo signal
+#### Pin Y: Bandpassed echo signal
 
 ![image info](./docs/ld1115h_signal_y.png)
 
