@@ -21,7 +21,7 @@ Rather boring hardware. Not spending more time here.
 - LDO: GU5R1 (noname 3V3 LDO)
 
 
-### Measurements X and Y
+### Measurements on X and Y
 
 Wild educated guesses here. Not 100% sure.
 
