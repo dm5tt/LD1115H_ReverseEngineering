@@ -5,7 +5,7 @@ The LD1115H is a 24GHz CW radar for human presense and object movement detection
 
 It uses our old friend SGRSemi SRK1101/SGR1101A and a STM32F030 microcontroller.
 
-Rather boring hardware. Not spending any further time here.
+Rather boring hardware. Not spending more time here.
 
 ## Hardware
 
