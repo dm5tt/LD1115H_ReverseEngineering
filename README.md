@@ -25,7 +25,9 @@ Rather boring hardware. Not spending more time here.
 
 Wild educated guesses here. Not 100% sure.
 
-Both signal captured from OpAmp output vs. their ADC signal on the STM32.
+Both signal captured from OpAmp input vs. their ADC signal on the STM32.
+
+The extreme noise on the input signal might be caused from an isolated ground being around the radar IC.
 
 #### Pin X: Derviate of the filtered  echo  signal
 
